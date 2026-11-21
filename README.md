@@ -296,14 +296,7 @@ LogicShield was developed as an academic project for the **Digital Logic Design 
 
 ---
 
-## Repository Publishing Checklist
 
-Before pushing this project to GitHub:
-
-- [ ] Remove real SQLite databases and private uploaded files.
-- [ ] Remove student-card images and all personal/student information.
-- [ ] Remove passwords, secret keys, API tokens, and default credentials.
-- [ ] Exclude `.venv/`, `__pycache__/`, `.pytest_cache/`, and generated runtime files.
 - [ ] Add a `.gitignore` suitable for Python, Flask, SQLite, and local uploads.
 - [ ] Confirm that `requirements.txt` reflects the current source revision.
 - [ ] Test setup instructions from a clean virtual environment.
